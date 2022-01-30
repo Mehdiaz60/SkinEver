@@ -1,0 +1,122 @@
+body {
+    margin: 0; /* pour éviter les marges */
+    /*background-image:url("fondecrant.jpg");*/
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    font-size : 18px;
+}
+
+h3{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+button{
+
+        position: relative;
+        height: 40px;
+        width: 250px;
+        margin-top: 60px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        color: rgb(0, 0, 0);
+        background-color: rgb(168, 168, 168);
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: background 0.5s;
+      
+}
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #b8b8b8;
+}
+input{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border: 10px;
+    border-radius: 10px;
+    height: 30px;
+    
+
+}
+
+#add{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border-radius: 10px;
+    color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65em;
+    padding: 20px;
+}
+#delete{
+    border:2px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65em;
+    padding: 20px;
+    margin-top: 15px;
+}
+#update{
+    border: 2px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65em;
+    padding: 20px;
+    margin-top: 15px;
+}
+#skin {
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+    padding: 0;
+}
+img {
+	width: 150px;
+	height: 150px;
+    max-width: 100%;
+	height: auto;
+    margin-left: 20vw;
+    margin-top: 2vh;
+    display: block;
+    display:inline;
+
+}
+
+img:hover{
+    width:15%;
+    height:15%;
+}
+
+.text{
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    padding-top: 50px;
+    margin: 0, 0;
+    padding-top: 0s;
+
+}
+
+        
